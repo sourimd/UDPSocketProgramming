@@ -1,0 +1,15 @@
+This is a basic client/server UDP Socket Programming example.
+
+The idea is that the server will come up with a signle digit number
+and the client has to guess what the number is.
+
+Start the server program by passing the value of the port on which it will
+accept inbound traffic and the value, that is tobe guessed.
+
+Then activate the client program by passing in the IP Address of the server
+and the port on which it is listening. There is an infinite loop running
+in the client program. In every iteration the program will come up with a
+random value and send that value to the server. On receiving the value, the
+server will respond back saying whether the value is correct or not. If the value
+is incorrect the programs will stop then and there by breaking off the loop. If not
+then the loop continues.
